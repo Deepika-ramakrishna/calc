@@ -6,8 +6,10 @@ return(n1+n2);
 void subtraction(int n1,int n2)
 {
 return(n1-n2);
-int main{
-  printf("enter two numbers:");
+}
+int main
+{
+printf("enter two numbers:");
 scanf(%d,%d,&n1,&n2);
 res=addition(n1,n2);
 printf("result of addition is %d",res);
