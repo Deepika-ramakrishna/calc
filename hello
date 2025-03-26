@@ -7,6 +7,10 @@ void subtraction(int n1,int n2)
 {
 return(n1-n2);
 }
+void multiplication(int n1,int n2)
+{
+return(n1*n2);
+}
 int main
 {
 printf("enter two numbers:");
@@ -15,4 +19,7 @@ res=addition(n1,n2);
 printf("result of addition is %d",res);
 res=subtraction(n1,n2);
 printf("result of subtraction is %d",res);
+res=multiplicaion(n1,n2);
+printf("result of multiplication is %d",res);
+}
 }
